@@ -143,7 +143,7 @@ svg {
   }
 }
 div > h1 {
-  @apply my-2;
+  @apply mb-2;
 }
 p {
   @apply mb-2;
