@@ -113,6 +113,9 @@ header {
 .nav-item {
   @apply mx-2;
 }
+.nav-item:hover {
+  @apply text-black;
+}
 .like-item {
   @apply flex m-2;
 }
