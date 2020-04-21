@@ -1,7 +1,7 @@
 <template>
-  <ContactLayout>
+  <GeneralLayout>
     <div v-html="$page.contact.content"></div>
-  </ContactLayout>
+  </GeneralLayout>
 </template>
 
 <page-query>
@@ -13,11 +13,11 @@ query {
 </page-query>
 
 <script>
-import ContactLayout from "~/layouts/ContactLayout.vue";
+import GeneralLayout from "~/layouts/GeneralLayout.vue";
 
 export default {
   components: {
-    ContactLayout
+    GeneralLayout
   },
   metaInfo: {
     title: "Contact"
