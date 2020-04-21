@@ -4,7 +4,7 @@
       <h1 class="site-title">
         <g-link to="/">{{$static.metadata.siteName}}</g-link>
       </h1>
-      <nav>
+      <nav class="flex items-center">
         <ul class="navbar">
           <li class="nav-item">
             <g-link to="/">About</g-link>
