@@ -129,7 +129,7 @@ svg {
   @apply mr-2;
 }
 .like-list {
-  @apply flex flex-wrap justify-center;
+  @apply flex flex-wrap justify-center mb-0;
 }
 .inner-content {
   @apply flex flex-col;
@@ -142,7 +142,7 @@ svg {
     @apply flex flex-row;
   }
   .like-list {
-    @apply flex flex-col justify-start;
+    @apply flex flex-col justify-start mb-2;
   }
 }
 div > h1 {
