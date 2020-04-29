@@ -13,7 +13,11 @@ query {
 </page-query>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: "Tailwind"
+  }
+};
 </script>
 
 <style>
