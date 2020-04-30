@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="mx-2 flex flex-col justify-between" v-html="$page.stackType.content"></div>
+    <div class="mx-2 mb-4 flex flex-col justify-between" v-html="$page.stackType.content"></div>
     <template v-slot:outsideFlex>
       <hr />
       <div class="flex flex-center flex-wrap">
@@ -30,6 +30,17 @@ export default {
 </script>
 
 <style>
+hr {
+  border: 0;
+}
+hr::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #f56565;
+  opacity: 0.75;
+}
 p > a {
   @apply text-red-500;
 }
