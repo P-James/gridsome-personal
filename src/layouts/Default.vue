@@ -95,7 +95,7 @@ body {
 }
 .layout {
   max-width: 780px;
-  @apply mx-auto mt-6 rounded-lg p-6 bg-white shadow-xl;
+  @apply mx-auto mt-6 rounded-lg p-6 bg-white shadow-xl mb-12;
 }
 header {
   @apply flex justify-between mb-4;
