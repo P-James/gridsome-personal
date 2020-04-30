@@ -11,6 +11,7 @@ used Vuex and Vue Router where necessary too.
 
 This site was built using Vue with [Gridsome](https://gridsome.org).
 
-Originally this site was a Vue SPA. But I had seen a lot of talk about the super
-fast JAMstack - sites built with GraphQL data layers. I always wanted to learn
-more about GraphQL, so I rebuilt this site using Gridsome.
+I had seen a lot of talk about the super fast JAMstack - sites built with
+GraphQL data layers. I always wanted to learn more about GraphQL, so I built
+this site using Gridsome. In retrospect, it is overkill for a site this size,
+but I enjoyed the learning experience.
