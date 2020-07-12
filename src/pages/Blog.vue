@@ -5,7 +5,7 @@
       :key="i"
       :title="post.node.title"
       :date="post.node.date"
-      :slug="post.node.slug"
+      :slug="'blog/'+post.node.slug"
     >{{post.node.excerpt}}</blog-post-card>
   </BlogLayout>
 </template>
