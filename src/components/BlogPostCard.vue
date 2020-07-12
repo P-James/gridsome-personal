@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style>
-.blog-post-card:hover a {
+.blog-post-card:hover h2 {
   @apply underline;
 }
 </style>
