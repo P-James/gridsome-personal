@@ -7,7 +7,7 @@
       <nav class="flex items-center">
         <ul class="navbar">
           <li class="nav-item">
-            <g-link to="/">About</g-link>
+            <g-link to="/" exact>About</g-link>
           </li>
           <li class="nav-item">
             <g-link to="/blog">Blog</g-link>
@@ -31,6 +31,14 @@ query {
   }
 }
 </static-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Blog'
+  }
+}
+</script>
 
 <style>
 </style>

@@ -42,6 +42,18 @@ module.exports = {
       },
     },
   ],
+  templates: {
+    BlogPost: "/blog/:slug",
+  },
+  transformers: {
+    //Add markdown support to all file-system sources
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: ["gridsome-plugin-remark-prismjs-all"],
+    },
+  },
   chainWebpack: (config) => {
     const svgRule = config.module.rule("svg");
     svgRule.uses.clear();

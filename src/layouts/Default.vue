@@ -11,7 +11,10 @@
               <g-link to="/">About</g-link>
             </li>
             <li class="nav-item">
-              <g-link to="/Contact">Contact</g-link>
+              <g-link to="/blog">Blog</g-link>
+            </li>
+            <li class="nav-item">
+              <g-link to="/contact">Contact</g-link>
             </li>
           </ul>
         </nav>
@@ -94,7 +97,7 @@ body {
   @apply text-red-600;
 }
 .layout {
-  max-width: 780px;
+  max-width: 900px;
   @apply mx-auto mt-6 rounded-lg p-6 bg-white shadow-xl mb-12;
 }
 header {
@@ -112,6 +115,9 @@ header {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   @apply font-bold text-2xl font-inter;
+}
+.saturated {
+  color: #664949
 }
 .navbar {
   @apply flex;
