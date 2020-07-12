@@ -1,9 +1,7 @@
 <template>
   <a :href="slug" class="blog-post-card">
     <div class="leading-tight">
-      <h2 class="mb-2">
-        <a :href="slug" class="font-semibold leading-tight cursor-pointer">{{title}}</a>
-      </h2>
+      <h2 class="mb-2 font-semibold leading-tight cursor-pointer">{{title}}</h2>
       <slot></slot>
       <div class="italic flex justify-end mt-4 saturated">Posted: {{date}}</div>
     </div>
