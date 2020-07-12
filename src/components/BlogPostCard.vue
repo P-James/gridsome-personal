@@ -1,5 +1,5 @@
 <template>
-  <a :href="slug" class="blog-post-card">
+  <a :href="'blog/'+slug" class="blog-post-card">
     <div class="leading-tight">
       <h2 class="mb-2 font-semibold leading-tight cursor-pointer">{{title}}</h2>
       <slot></slot>
