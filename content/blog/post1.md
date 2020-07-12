@@ -143,9 +143,9 @@ All that's left is to assign roles to a User and we're done:
 public function assignRole($role)
     {
         if (is_string($role)) {
-            Role::whereName($role)
+            $role = Role::whereName($role);
         }
-        return $this->belongsToMany(Role::class)->withTimestamps();
+        return $this->syncWithoutDetaching($role);
     }
 ```
 
