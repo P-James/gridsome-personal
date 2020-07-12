@@ -118,6 +118,7 @@ Schema::create('role_user', function (Blueprint $table) {
             ->references('id')
             ->on('roles')
             ->onDelete('cascade');
+        });
 ```
 
 On our Role and User model set up the mutual many-to-many relationships:
