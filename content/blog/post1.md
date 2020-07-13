@@ -89,7 +89,7 @@ We need a Role model, a roles table and belongsToMany relationships set up.
 Run `php artisan make:model -m Role`
 
 The -m will give you your migration file that will create your 'roles' table when you run `php artisan:migrate`.
-Inside the file just give your it a name column.
+Inside the file just give the table a name column.
 
 Below that, we set up the 'role_user' pivot table at the same time, defining a unique primary key, and our two foreign keys.
 If this part is new to you, check out many-to-many relationships in the Laravel docs.
@@ -144,7 +144,7 @@ All that's left is to assign roles to a User and we're done:
 public function assignRole($role)
     {
         if (is_string($role)) {
-            $role = Role::whereName($role);
+            $role = Role::whereName($role)->first();
         }
         return $this->syncWithoutDetaching($role);
     }
