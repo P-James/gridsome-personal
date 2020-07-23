@@ -5,6 +5,7 @@
       :key="i"
       :title="post.node.title"
       :date="post.node.date"
+      :updated="post.node.updated"
       :slug="post.node.slug"
     >{{post.node.excerpt}}</blog-post-card>
   </BlogLayout>
@@ -19,6 +20,7 @@ query {
         slug
         excerpt
         date (format: "DD MMM YYYY")
+        updated (format: "DD MMM YYYY")
       }
     }
   }

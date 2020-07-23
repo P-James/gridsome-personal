@@ -3,6 +3,7 @@ title: Add role checking middleware with multiple parameters in Laravel
 slug: add-role-checking-middleware-with-multiple-parameters-in-laravel
 excerpt: When you have users with multiple roles, for example Admin, Subscriber, Author etc. You may want to limit access to certain pages to a role or many roles, so you need to pass them as parameters to your middleware. This article explains how to acheive that in Laravel.
 date: 2020-07-10
+updated: 2020-07-23
 id: 1
 ---
 
@@ -78,6 +79,20 @@ public function hasAnyRole(array $roles)
         }
         return false;
     }
+```
+>*Update 23/07/2020*
+
+>*The above code will cause a server error if an unauthenticated user hits the endpoint /dashboard, so we can put in a simple OR operator in the if clause like so to solve that bug:*
+
+
+```php
+public function handle($request, Closure $next, ...$roles)
+	{
+		if (!$request->user() || !$request->user()->hasAnyRole($roles)) {
+			return redirect('/');
+		}
+		return $next($request);
+	}
 ```
 
 `pluck($columnName)` is a Collection method that will return an array of values from a single column on the model.
