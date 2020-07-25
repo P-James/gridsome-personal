@@ -11,6 +11,7 @@ query ($id: ID!) {
   blogPost(id: $id) {
     title
     date (format: "DD MMM YYYY")
+    updated (format: "DD MMM YYYY")
     content
   }
 }
