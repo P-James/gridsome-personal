@@ -37,8 +37,8 @@
                 <g-link to="/Tailwind">Tailwind</g-link>
               </li>
               <li class="like-item">
-                <javascript />
-                <g-link to="/Javascript">Javascript</g-link>
+                <react />
+                <g-link to="/React">React</g-link>
               </li>
               <li class="like-item">
                 <zhongwen />
@@ -65,7 +65,7 @@ query {
 <script>
 import laravel from "~/assets/laravel.svg";
 import vue from "~/assets/vue.svg";
-import javascript from "~/assets/javascript.svg";
+import react from "~/assets/react.svg";
 import tailwind from "~/assets/tailwind.svg";
 import zhongwen from "~/assets/zhongwen.svg";
 
@@ -73,7 +73,7 @@ export default {
   components: {
     laravel,
     vue,
-    javascript,
+    react,
     tailwind,
     zhongwen
   }
