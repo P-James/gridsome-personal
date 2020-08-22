@@ -7,7 +7,7 @@ id: 4
 
 Here's some work I recently did using React:
 
-[WAJStudio](https://wajstudio.com/)
+[WAJStudio](waj-frontend.vercel.app/)
 
 It's a NextJs frontend hosted on Vercel and Strapi CMS backend with Graphql
 hosted on Heroku. Although I am more confortable with Vue, I built all the React
