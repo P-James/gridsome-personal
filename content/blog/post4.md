@@ -18,7 +18,7 @@ let sidebarHeight = ref<number>(0);
 
 onMounted(() => {
       let height = sidebar.value?.offsetHeight;
-      height && (sidebar.value!.style.maxHeight = height.toString());
+      height && (sidebar.value!.style.maxHeight = `${height.toString()}px`);
     });
 ```
 
