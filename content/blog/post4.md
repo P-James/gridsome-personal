@@ -1,7 +1,7 @@
 ---
 title: Template refs in Vue 3, Typescript and Composition API
 slug: template-refs-vue-3-typescript-composition-api
-excerpt: If you're using Laravel Jetstream with teams, you may have found you're getting the erro Trying to get property 'id' of non-object a whole lot during testing. This is because when you create a User from a factory, the team and team_user pivot table are not automatically created or filled.
+excerpt: Template refs are often used to manipulate DOM elements, this can become challenging in Vue 3 Composition API with Typescript because of the way Vue 3 infers the type from the `ref()` function.
 date: 2021-04-23
 id: 4
 ---
