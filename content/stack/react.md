@@ -5,9 +5,8 @@ id: 4
 
 # **React**
 
-Here's some work I recently did using React:
+I learnt Vue first, but React seems like an expected skill for developers these days so I completed a Udemy course and built a few different projects with Next.js to get an understanding of it.
 
-[WAJStudio](https://waj-frontend.vercel.app/)
+[Lipley+Parker](https://lp-next-js-sanity.vercel.app/)
 
-It's a NextJs frontend hosted on Vercel, and Strapi CMS with Graphql backend (hosted on Heroku). Although I am more confortable with Vue, I chose React on this site as a challenge to get more familiar with the framework. I built all the components (and GraphQL queries) from scratch, so it was a good learning
-experience.  
+This site is a Next.js frontend hosted on Vercel, and Sanity CMS with Graphql backend (hosted on Netlify). I built all the components from scratch, so it was a good learning experience.  

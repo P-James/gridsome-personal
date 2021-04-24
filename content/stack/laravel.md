@@ -5,12 +5,6 @@ id: 1
 
 # **Laravel**
 
-Laravel has been the cornerstone of learning to code for me. Having started with
-Python and then moving to Javascript and PHP, it wasn't until I got really stuck
-in with Laravel that backend structure and OOP began to click.
+Backend framework of choice. I love building custom apps with Laravel. You can see a recent example at [www.realvoice.io](https://www.realvoice.io). This side-project was built with the 'VILT' stack (Vue, Inertia, Laravel, Tailwind), and deployed to Vapor. I've also made use of several packages and third party API's (Laravel Scout, IBM Cloud, Lexicala dictionary), and integrated other third party packages on the front end. 
 
-You can see an example of my most recent commercial work with Laravel at:
-[Educhina.co.uk](https://educhina.co.uk)
-
-I'm also familiar with Wordpress and have built sites such as
-[LipleyAndParker.com](http://lipleyandparker.com) using that as a backend (I'm going to rebuild this with Next or Nuxt in the near future).
+Besides Laravel I have also used some 'headless' services as backends when clients need more control (Sanity, Contentful, Strapi).

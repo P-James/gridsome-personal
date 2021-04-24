@@ -5,9 +5,6 @@ id: 3
 
 # **Tailwind CSS**
 
-I'm not a graphic designer but I want my projects to look good! Ideally without
-spending too long tinkering with the CSS.
+Luckily I was early on the Tailwind hype train, as creator Adam Wathan has been a well-known name in the Laravel/ Vue space for a long time.
 
-[Tailwind CSS](https://tailwindcss.com) is the best solution for that and I
-implement it in nearly every project. I've learnt a bit about front-end config
-and build flow in the process.
+I'm very comfortable with vanilla CSS but given the choice I'd always opt for tailwind and always use it on my own projects.
